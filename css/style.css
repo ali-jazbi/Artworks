@@ -14,7 +14,17 @@ p {
   line-height: 1.7;
   font-family: "Poppins", sans-serif;
 }
+.appear{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
 
+.appear.active{
+  transform: translateY(0);
+  opacity: 1;
+}
 .lead {
   font-size: 18px;
 }
