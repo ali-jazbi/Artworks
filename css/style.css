@@ -1,10 +1,17 @@
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans:400,700|Poppins:300,400,500,600,700&display=swap");
+html{font-family:homa, sans-serif;
+}
 body {
   line-height: 1.2;
-  font-family: "Poppins", sans-serif;
+  font-family: homa, sans-serif;
   -webkit-font-smoothing: antialiased;
   font-size: 15px;
   color: #13064B;
+}
+}
+@font-face {
+  font-family: homa;
+  src: url(../font/B\ Homa_0.ttf);
 }
 ::-webkit-scrollbar {
   width: 10px;
@@ -30,7 +37,7 @@ p {
   color: #6c6c86;
   font-size: 15px;
   line-height: 1.7;
-  font-family: "Poppins", sans-serif;
+  font-family: homa, sans-serif;
 }
 .appear{
   position: relative;
@@ -58,7 +65,7 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   color: #000;
-  font-family: "Noto Sans", sans-serif;
+  font-family: homa, sans-serif;
   font-weight: 700;
   line-height: 1.2;
 }
@@ -121,7 +128,7 @@ h6, .h6 {
 /* Button style */
 .btn {
   font-size: 15px;
-  font-family: "Poppins", sans-serif;
+  font-family: homa, sans-serif;
   text-transform: capitalize;
   padding: 13px 45px;
   border-radius: 35px;
@@ -467,11 +474,11 @@ a:hover {
 }
 
 .font-primary {
-  font-family: "Poppins", sans-serif !important;
+  font-family: homa, sans-serif !important;
 }
 
 .font-secondary {
-  font-family: "Noto Sans", sans-serif !important;
+  font-family: homa, sans-serif !important;
 }
 
 .shadow {
@@ -525,7 +532,7 @@ textarea.form-control {
 .list-styled li::before {
   position: absolute;
   content: "\e65d";
-  font-family: "themify";
+  font-family: homa;
   font-size: 14px;
   left: 0;
   top: 0px;
@@ -567,9 +574,31 @@ textarea.form-control {
 }
 
 .navbar .nav-item .nav-link {
-  font-family: "Poppins", sans-serif;
+  font-family: homa, sans-serif;
   padding: 15px;
   font-size: 18px;
+  display: inline-block;
+  position: relative;
+  color: #0087ca;
+}
+.navbar .nav-item .nav-link:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #D5007D !important; ;
+  transform-origin: bottom center;
+  transition: transform 0.25s ease-out;
+}
+.mth-hover:hover{
+  color: #D5007D !important;
+}
+.navbar .nav-item .nav-link:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom center;
 }
 .navbar .nav-item.active {
   font-weight: bold;
@@ -590,7 +619,7 @@ textarea.form-control {
   position: relative;
   color: #000;
   transition: 0.2s ease;
-  font-family: "Poppins", sans-serif;
+  font-family: homa, sans-serif;
   padding: 10px;
   text-decoration: none;
   margin-bottom: 0 !important;

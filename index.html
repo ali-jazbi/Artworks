@@ -38,7 +38,7 @@
 <!-- SECTION NAVBAR -->
 <header class="navigation fixed-top">
   <nav class="navbar navbar-expand-lg navbar-dark">
-    <a class="navbar-brand" href="index.html">𝓜𝓣𝓗 𝓐𝓻𝓽𝔀𝓸𝓻𝓴𝓼</a>
+    <a class="navbar-brand mth-hover" href="index.html">𝓜𝓣𝓗 𝓐𝓻𝓽𝔀𝓸𝓻𝓴𝓼</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
       aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -47,31 +47,19 @@
     <div class="collapse navbar-collapse text-center" id="navigation">
       <ul dir="rtl" class="navbar-nav ml-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="index.html">خانه</a>
+          <a class="nav-link" href="#banner">خانه</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="services.html">سرویس ها</a>
+          <a class="nav-link" href="#services">سرویس ها</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">نمونه کار</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">صفحات</a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="team.html">Team</a>
-            <a class="dropdown-item" href="team-single.html">Team Details</a>
-            <a class="dropdown-item" href="career.html">Career</a>
-            <a class="dropdown-item" href="career-single.html">Career Details</a>
-            <a class="dropdown-item" href="blog-single.html">Blog Details</a>
-            <a class="dropdown-item" href="pricing.html">Pricing</a></a>
-            <a class="dropdown-item" href="faqs.html">FAQ's</a>
-          </div>
+          <a class="nav-link" href="#works">نمونه کار</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="about.html">درباره من</a>
+          <a class="nav-link" href="#aboutus">درباره من</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="contact.html">ارتباط با من</a>
+          <a class="nav-link" href="#foot">ارتباط با من</a>
         </li>
       </ul>
     </div>
@@ -80,7 +68,7 @@
 <!-- /NAVBAR -->
 
 <!-- SECTION banner -->
-<section class="banner bg-cover position-relative d-flex justify-content-center align-items-center"
+<section id="banner" class="banner bg-cover position-relative d-flex justify-content-center align-items-center"
   data-background="images/banner/banner2.jpg">
   <div class="container">
     <div class="row">
@@ -95,7 +83,7 @@
 <!-- /banner -->
 
 <!-- SECTION service -->
-<section class="section">
+<section id="services" class="section">
   <div class="container">
     <div class="row">
       <div class="col-lg-10 mx-auto text-center">
@@ -290,7 +278,7 @@
 <!-- /about -->
 
 <!-- SECTION project -->
-<section class="section">
+<section id="works" class="section">
   <div class="container-fluid">
     <div class="row">
       <div class="col-lg-10 mx-auto text-center">
@@ -384,11 +372,11 @@
   </div>
 </section>
 <!-- /project -->
-
+<br id="aboutus"><br><br><br><br><br>
 <!-- SECTION about -->
 <section>
   <div class="container">
-    <div class="row mb-100">
+    <div id="aboutus" class="row mb-100">
       <div class="col-lg-4 col-md-6">
         <div class="bg-secondary p-4 text-center appear">
           <div class="img-thumb-circle mx-auto mb-3">
@@ -523,7 +511,7 @@
             <li><a href="#" class="text-light d-block mb-3">Support</a></li>
           </ul>
         </div>
-        <div class="col-md-6 ">
+        <div id="foot" class="col-md-6 ">
           <div class="bg-white p-4 rounded">
             <h3>Contact us</h3>
             <form action="#">
@@ -581,5 +569,6 @@
 <!-- Main Script -->
 <script src="js/script.js"></script>
 <script src="./js/appear.js"></script>
+<script src="./js/scroll.js"></script>
 </body>
 </html>
