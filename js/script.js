@@ -1,10 +1,3 @@
-/**
- * WEBSITE: https://themefisher.com
- * TWITTER: https://twitter.com/themefisher
- * FACEBOOK: https://www.facebook.com/themefisher
- * GITHUB: https://github.com/themefisher/
- */
-
 (function ($) {
   'use strict';
 
@@ -37,25 +30,6 @@
     if ($(window).innerWidth() >= mobileWidth) {
       $(this).children('.dropdown-menu').stop(true, false, true).slideToggle(250);
     }
-  });
-
-  // Progress Bar
-  $(window).on('load', function () {
-    $('.progress-bar').each(function () {
-      var width = $(this).data('percent');
-      $(this).css({
-        'transition': 'width 3s'
-      });
-      $(this).appear(function () {
-        $(this).css('width', width + '%');
-        $(this).find('.count').countTo({
-          from: 0,
-          to: width,
-          speed: 3000,
-          refreshInterval: 50
-        });
-      });
-    });
   });
 
   // Shuffle js filter and masonry
