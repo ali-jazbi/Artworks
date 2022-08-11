@@ -17,12 +17,12 @@ body {
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: #07085D; 
-  height:90px
+  height:90px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #b30000; 
+  background: #CD017D; 
 }
 
 p {
