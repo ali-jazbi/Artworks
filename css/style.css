@@ -917,15 +917,10 @@ footer .overlay-image {
   top: -22px ;
   position: absolute;
   color: #07085D !important;
-  right: 600px;
+  right: 0;
+  position: relative;
+  text-align:left;
 }
-@media (max-width:991px)
-{
-  .progress-block .progress-bar .skill-number {
-    right: 350px;
-  }
-}
-
 /* /progressbar */
 /* video */
 .video-player iframe {
