@@ -373,6 +373,17 @@ a:hover {
   border-radius: 5px;
   margin: 40px auto 90px;
 }
+@media (max-width: 991px) {
+  .s-feature .mr-0{
+    margin-right: 0 !important;
+  }
+  .s-feature .ml-5{
+    margin-left: 0 !important;
+  }
+.s-feature .section-border{
+    margin: 40px auto 90px  !important;
+  }
+}
 
 .bg-cover {
   background-size: cover;
