@@ -772,11 +772,11 @@ textarea.form-control {
 .card:hover .icon-watermark {
   transform: translate(-50%, -50%) scale(1.5);
 }
-
-.bg-image {
-  position: absolute;
+.bg-image { 
+  position:absolute;
   left: 0;
   top: 0;
+  float:right !important;
   height: 100%;
   width: auto;
 }
@@ -784,8 +784,13 @@ textarea.form-control {
   height: 100%;
   max-width: 100%;
 }
+@media (min-width: 1200px){
+  .bg-image{
+    left:1000px;
+  }
+}
 @media (max-width: 991px) {
-  .bg-image img {
+  .bg-image{
     display: none;
   }
 }
@@ -909,9 +914,16 @@ footer .overlay-image {
   border-radius: 10px;
 }
 .progress-block .progress-bar .skill-number {
+  top: -22px ;
   position: absolute;
-  top: -22px;
-  right: 0px;
+  color: #07085D !important;
+  right: 600px;
+}
+@media (max-width:991px)
+{
+  .progress-block .progress-bar .skill-number {
+    right: 350px;
+  }
 }
 
 /* /progressbar */
