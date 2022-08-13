@@ -284,14 +284,16 @@ body {
   overflow-x: hidden;
 }
 
-::-moz-selection {
-  background: #f9746b;
-  color: #fff;
+::-moz-selection 
+{
+  background: #12054A;
+  color: #ED0189;
 }
 
-::selection {
-  background: #f9746b;
-  color: #fff;
+::selection 
+{
+  background: #12054A;
+  color: #ED0189;
 }
 
 /* preloader */
@@ -383,8 +385,13 @@ a:hover {
 .s-feature .section-border{
     margin: 40px auto 90px  !important;
   }
+  .s-feature .send-title{
+    text-align: center;
+  }
 }
-
+.s-feature .send-title{
+  color: #ffffff;
+}
 .bg-cover {
   background-size: cover;
   background-position: center center;
