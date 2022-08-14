@@ -626,15 +626,27 @@ textarea.form-control {
 }
 
 /* social icons */
-.social-icons a {
+.social-icons a{
   display: block;
   height: 50px;
   width: 50px;
   border-radius: 50%;
-  line-height: 50px;
+  line-height: 52px;
+  font-size: 17px;
   background: #07085d;
   color: #fff;
   text-align: center;
+  transition: 0.3s all ease-in-out;
+}
+.social-icons a:hover{
+ background-color: #f7463a;
+ color: #07085D;
+}
+.info-hov{
+  transition: 0.3s all ease-in-out;
+}
+.info-hov:hover{
+color:#f7463a !important;
 }
 
 /* /social icons */
