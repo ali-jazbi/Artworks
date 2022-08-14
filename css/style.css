@@ -106,7 +106,7 @@ p {
   }
 }
 /* * ---------END---------- */
-.appear{
+/* .appear{
   position: relative;
   transform: translateY(150px);
   opacity: 0;
@@ -116,7 +116,7 @@ p {
 .appear.active{
   transform: translateY(0);
   opacity: 1;
-}
+} */
 .lead {
   font-size: 18px;
 }
@@ -1083,22 +1083,106 @@ footer .overlay-image {
   max-height: 260px;
   max-width: 260px;
 }
+.team-1{
+  width: 100%;
+  display: flex;
+  justify-content: center !important;
+}
+.team-1 .border {
+  height: 369px;
+  width: 290px;
+  background: transparent;
+  border-radius: 10px;
+  transition: border 1s;
+  position: relative;
+}
+.team-1 .container-fluid{
+  width: 90% !important;
+}
+.team-1 .border:hover {
+  border: 1px solid #fff;
+}
+.team-1 .card {
+  height: 379px;
+  width: 300px;
+  margin-bottom: 80px;
+  background: #808080;
+  border-radius: 10px;
+  transition: background 0.8s;
+  overflow: hidden;
+  background: #000;
+  box-shadow: 0 70px 63px -60px #000;
+  display: flex;
 
-.card {
-  border: 0;
-  border-radius: 0;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
-.card-img-top {
-  border-radius: 0;
+.team-1 .card0 {
+  background: url("../images/project/1.png") center center no-repeat;
+  background-size: 100%;
 }
-.card-header {
-  border: 0;
+.team-1 .card0:hover {
+  background: url("../images/about/1.jpeg") left center no-repeat;
+  background-size: 130%;
 }
-.card-body {
-  border: 0;
-  border-radius: 0;
+.team-1 .card0:hover h2 {
+  opacity: 1;
 }
-.card-footer {
-  border: 0;
+.team-1 .card0:hover .fa , .team-1 .card0:hover .bi{
+  opacity: 1;
+}
+.team-1 .card1 {
+  background: url("../images/project/2.jpg") center center no-repeat;
+  background-size: 100%;
+}
+.team-1 .card1:hover {
+  background: url("../images/about/1.jpeg") left center no-repeat;
+  background-size: 130%;
+}
+.team-1 .card1:hover h2 {
+  opacity: 1;
+}
+.team-1 .card1:hover .fa , .team-1 .card1:hover .bi{
+  opacity: 1;
+}
+.team-1 .card2 {
+  background: url("../images/project/3.jpg") center center no-repeat;
+  background-size: 100%;
+}
+.team-1 .card2:hover {
+  background: url("../images/about/1.jpeg") left center no-repeat;
+  background-size: 130%;
+}
+.team-1 .card2:hover h2{
+  opacity: 1;
+}
+.team-1 .card2:hover .fa , .team-1 .card2:hover .bi
+{
+  opacity: 1;
+}
+.team-1 h2 {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #fff;
+  margin: 20px;
+  opacity: 0;
+  transition: opacity 1s;
+}
+.team-1 .fa , .team-1 .bi{
+  opacity: 0;
+  transition: opacity 1s;
+  color: white;
+}
+.team-1 .icons {
+  position: absolute;
+  fill: #fff;
+  color: #fff;
+  height: 130px;
+  top: 226px;
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
 }
 /*# sourceMappingURL=style.css.map */
