@@ -106,7 +106,7 @@ p {
   }
 }
 /* * ---------END---------- */
-/* .appear{
+.appear{
   position: relative;
   transform: translateY(150px);
   opacity: 0;
@@ -116,7 +116,7 @@ p {
 .appear.active{
   transform: translateY(0);
   opacity: 1;
-} */
+}
 .lead {
   font-size: 18px;
 }
@@ -1148,6 +1148,14 @@ footer .overlay-image {
 }
 .team-1 .card2 {
   background: url("../images/project/3.jpg") center center no-repeat;
+  background-size: 100%;
+}
+.team-1 .card3{
+  background: url("../images/project/4.jpg") center center no-repeat;
+  background-size: 100%;
+}
+.team-1 .card4{
+  background: url("../images/project/2.png") center center no-repeat;
   background-size: 100%;
 }
 .team-1 .card2:hover {
